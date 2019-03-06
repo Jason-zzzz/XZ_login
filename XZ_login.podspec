@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
   # s.libraries = "iconv", "xml2"
 
   # s.dependency "HandyFrame"
-  # s.dependency "ZZNavigation"
+    s.dependency "JZZTools"
 
 end
