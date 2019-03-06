@@ -22,7 +22,7 @@
 }
 
 - (IBAction)bb:(id)sender {
-    LoginViewController * lvc = [[[LoginViewController alloc] init] initView];
+    LoginViewController * lvc = [[LoginViewController alloc] init];
     [self presentViewController:lvc animated:YES completion:^{
         
     }];

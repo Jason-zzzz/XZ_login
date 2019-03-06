@@ -17,6 +17,7 @@
 #import "SaveUsePHAsset.h"
 #import "TimeTool.h"
 #import "UIImage+Corner.h"
+#import "UIImage+PrivateBundleImage.h"
 #import "UIViewController+PrivateNavigationBar.h"
 #import "ZZNavigationBar.h"
 #import "ZZNavigationViewController.h"

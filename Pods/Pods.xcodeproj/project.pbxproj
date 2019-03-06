@@ -7,125 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C68984E96DACFCD5D1FD19553A176B /* UIImage+Corner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5212497768FBD168DA715564F1E05373 /* UIImage+Corner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03F41DD17F20A29988FE859C1D90B5C0 /* ZZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018B454E0A841DD3DAE9FB811296783B /* ZZNavigationViewController.m */; };
-		05E22EBAD3B33748B5FDBF45CED40CBF /* UIImage+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BAED19E2943B94A4F503DAB5E7588 /* UIImage+Corner.m */; };
-		0992DA90E64B95517BE47111F5C2EE55 /* JZZTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAF2829B36B65AA219F9F43754A3D42 /* JZZTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		185734DA727D5FBF9A5B2A2DA0B6D4B8 /* TimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0475564D96F9079BD63759FB45C01BEF /* TimeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AE41473DFE7579E499F83142F7813B4 /* UIViewController+PrivateNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D665571A03BD3E3C6B0826946E067F /* UIViewController+PrivateNavigationBar.m */; };
-		1B013A9D651B9C29C92D5A0C148D77FA /* ZZTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 376BB88B1C280C980BEA11BAD6D72603 /* ZZTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BC455C43C4E751439DCD0BB8F5A7A8A /* ZZNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415F9C04BB457CA3BF1120A76DE50095 /* ZZNavigationBar.xib */; };
-		1E141C1C4DA323B3A2F97786EA7AC168 /* ZZNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DD9EB87AE16D9745A5138AB22463D0 /* ZZNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2378B00947951F13851DDE5C358CA226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		252D2168D133DD38FB06E1970EF267B0 /* SaveUsePHAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = D975694C3B1D3A19C9FF10D4E01F6B56 /* SaveUsePHAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A9AF77FC6EFF8E1F8EE28357751DD79 /* TimeTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 504DB6185AE862FE5D81C1A609DE6653 /* TimeTool.mm */; };
-		321EC3F50BD6D9C932974F95D986E7C5 /* JZZTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5ACCE769859F645E7B515485942536 /* JZZTools-dummy.m */; };
-		3F1D4CA145CD000B0BF91A874EB4FB91 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 000742DAF9EB8084C8E58405CE0C0C64 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
-		4767D2D08E5F97851AB07405E6E5AB68 /* ZZObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47B90764110243ED88A3B5E2F7B3388B /* ZZObject.mm */; };
-		4B2DD8A3C36472A1D0E81CB3DCF3F293 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 241419B35B4C0683EE07D1C5685F691E /* UIView+LayoutMethods.m */; };
-		525B7CD69C8FD248F5158DB0B203F6C7 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E37D49FA6CB016D701B1793AF633156A /* back@2x.png */; };
+		0BAAF8155806C1975821253E8DED8F9E /* ZZObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = DABB2A54FB880F5AA0E11860E0949057 /* ZZObject.mm */; };
+		1279DB0056D0480B03F28D887B2BF9AF /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C759A57BEA0006548878E693A85637 /* back@2x.png */; };
+		1298C179C29FFE611195E44E6DFD7E70 /* ZZNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A95C91A4495454960D9EB449153C0D7 /* ZZNavigationBar.xib */; };
+		12E4AC2A260337C1D2172D3E20E99630 /* ZZNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5282A8C581FFEBACA79E862135459A28 /* ZZNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FAC13FAFDEEC9B9EE9824A754FB54D /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8440E53252BF280A9A31E2AD78488C /* UIView+LayoutMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2941B3CF4AA9A18668110BF97265F802 /* SaveUsePHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E5B692EB23872BA3226B5A62730387 /* SaveUsePHAsset.m */; };
+		37386D6D62B84793C4DE4B6982D3D658 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901D12DB25DDA36EF076572B28C32E96 /* back@3x.png */; };
 		52E8A82CC2B955A8597FFAC8232A9E94 /* Pods-XZ_login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D776C4D7758BE70F916395FD7B32FC17 /* Pods-XZ_login-dummy.m */; };
-		69A83E0FD3A6D1ED521EA0D0440E70EF /* ZZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C55933C246366208D8666D9D0A935F /* ZZNavigationBar.m */; };
-		7B26C41C86C83FE4ABE7010BB1B26F8B /* NSBundle+privateBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 865CC0B607B155E8CCD5CC5224F0E7E1 /* NSBundle+privateBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E3913AD3EEA011D672C7FB7CBDEB59D /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B36E042DC32D28026B29278AA4EE61C /* ALAssetsLibrary+CustomPhotoAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88FFEE44CBA8F79F6339918FB8CE8352 /* ZZNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F23DD5626488DE753CEDC74EF8D39681 /* ZZNavigationBar.bundle */; };
-		9038CE8A5A4B884DBE4B27051348A4F7 /* UIViewController+PrivateNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F957D141D493D46994B4B0092FF0A9 /* UIViewController+PrivateNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94CC0B81D8491D3715BD4B50E9297E3A /* ZZNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415F9C04BB457CA3BF1120A76DE50095 /* ZZNavigationBar.xib */; };
+		56EBFCF34E4EBB04C8FC111D461F0A4F /* ZZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A4DEAC3273051A2F99ADAE8FF247F9 /* ZZNavigationViewController.m */; };
+		5ABB2F0E4B07A375D965C5636E074F99 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9D6097F63D9EB2C54BEFC0EEDF60A /* UIView+LayoutMethods.m */; };
+		64CE6C8D4D0F8C4905C94464B1609651 /* JZZTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9F374A490CC437F91699F9E6D46C3 /* JZZTools-dummy.m */; };
+		6594FA01563D12594FD55610F329AAB1 /* PHAsset+Sneaky.h in Headers */ = {isa = PBXBuildFile; fileRef = B041AEF91CD5683761B9E9D8A8F802CE /* PHAsset+Sneaky.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68EC59954543B8E0B94FF2E62D91ED1C /* ZZObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DEC017A16D6A8C8A3D054BF8880DC3 /* ZZObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706D3BFD027D1A096400ED57CA9236BB /* UIImage+Corner.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EF7E775441FC4ED899A0D4FDA5D3A8 /* UIImage+Corner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722761BDBE1C2511C8741B2D8E1B93C8 /* TimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = DB10C2485A5567A053EF8A1B8BD231B3 /* TimeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		822FC9FACACC914BABF0EC49CB21FD98 /* ZZNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6855BF27CD448161A7F0F9C9434551FF /* ZZNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8233C52944118D15DC09BC312EBDDDBD /* ZZNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A95C91A4495454960D9EB449153C0D7 /* ZZNavigationBar.xib */; };
+		8D21404616A9D6E75E51AEB7FAB89E75 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901D12DB25DDA36EF076572B28C32E96 /* back@3x.png */; };
+		98A51C8173B24C41F8BE38C23D529872 /* UIImage+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FB94E26FB675039D51D281E8970211 /* UIImage+Corner.m */; };
+		9D6F43AE847A14BF31E5085D33EB9483 /* ZZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE28A057A313FA0F17F2D60037CE913B /* ZZNavigationBar.m */; };
+		A4F3A8624904A82D0CF3C81AD2E050E7 /* NSBundle+privateBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE44AC5EC56C3BA51B9B1151FEF2D /* NSBundle+privateBundle.m */; };
 		A5DDBBF25327B3F447C7FFD807384203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		AFFD93B9894B10261929C8F3A0167B6D /* NSBundle+privateBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 390C685EEE37263BEDD36653BBADD68F /* NSBundle+privateBundle.m */; };
-		B5EC2F03BF8EE69AC2382CD3BEA29376 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F00A46C593EEB6363951E93C31B464 /* back@3x.png */; };
-		BD93765B9F92E2F12D2A6DF81A4AAC9B /* ZZTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = F22C32E41F066E88B2BECDF58AF7F27D /* ZZTools.mm */; };
+		A736F3D61A74A47C2C9AA60F347E31E4 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C759A57BEA0006548878E693A85637 /* back@2x.png */; };
+		A84D9503ED5AD4C5EAE11B23C41CADFC /* NSBundle+privateBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 370A1A4A3ED63A9F25FAF934C788013D /* NSBundle+privateBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E780DD3FC44932A4CCD81157C16315 /* ZZTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BD01D9F3F0F7FBC537026DB6ED0ED93 /* ZZTools.mm */; };
+		B2FC0F2D3D8593645EE1CB6344C8049F /* ZZTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3080C4323F0CDE6B16B717DF774F3CFA /* ZZTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B364784AF21FDF5AC00C1C5CE3793401 /* SaveUsePHAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5A4596F4AE14567C832467BB9D3011 /* SaveUsePHAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42D8555F2C6BB7014162F7607E43682 /* JZZTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1710A887575759D41A8B3DC80BF37D3C /* JZZTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65BD9CAE168196EC1306DD5054E0A89 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825B210E10D3876EF5E8144CEE80A2B /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		C0EA7906258AD135942B2F694211C356 /* UIImage+PrivateBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D51C9F72AA3CC79E80FA25F9B87FA3EC /* UIImage+PrivateBundleImage.m */; };
 		C3752ADA5E7BA5705EA946A7A96337B7 /* Pods-XZ_login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 693D5537B9CDAC735908CA8034C86AD2 /* Pods-XZ_login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5EADC67F92348040EBE58902D7BD189 /* PHAsset+Sneaky.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7C1D3CBB88792C95E7345D629160F /* PHAsset+Sneaky.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3D8D8323FA0A9DE336A4F9B942C02D5 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E37D49FA6CB016D701B1793AF633156A /* back@2x.png */; };
-		DD907958E528416AB11808872760AC9B /* ZZObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B826B9745F3829137E6595C956DFAC /* ZZObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7D34EF3359EB05415928D6245697923 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F00A46C593EEB6363951E93C31B464 /* back@3x.png */; };
-		EA1117B3EAA439DB79927E9D62DCE746 /* ZZNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9300D8277BB9D9020DBD4CF8530F809E /* ZZNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8564DA6331CCAC217DE9AD0020D0F3 /* SaveUsePHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000800D4ABF97CEB0AB67368D73BEFA /* SaveUsePHAsset.m */; };
-		FD87640F78F1A15DDC78C0BC747C3156 /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CF18CA807FB9E8AE5269BB674145B3 /* UIView+LayoutMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C47AAF9527DFB88247691C6374ABE049 /* UIViewController+PrivateNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E292AB29453C2F7C1E7A547E022F6B7 /* UIViewController+PrivateNavigationBar.m */; };
+		C9D44FB8EC1AA38651D488D785619841 /* UIViewController+PrivateNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A12BB84BEAF653962C343048EBEDB2 /* UIViewController+PrivateNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6EC5332AF4DCB306F0ADF68C9C3C2A /* ZZNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F23DD5626488DE753CEDC74EF8D39681 /* ZZNavigationBar.bundle */; };
+		F21DADB93265A4E003A26C5DDE912358 /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C2F65D9F38640C41E8FDABC634860C /* ALAssetsLibrary+CustomPhotoAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FB115BC4717B5C5BE0580613614E1D /* TimeTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2A428633F5C57F36C5E3709930731 /* TimeTool.mm */; };
+		FC2E41B25832C149650F558B540EC6FA /* UIImage+PrivateBundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F28CA5A0C53A0D2144A1BF0EF9658C3 /* UIImage+PrivateBundleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA13A96EE79B9FB411CD98482729F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35AB2FC574F300B368CA60168559DFC4 /* PBXContainerItemProxy */ = {
+		0EA2B74BFB56D6BCCA504C9F1FB72E8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E9A6C11B185F149540664061D414451;
+			remoteGlobalIDString = C8F1C5C542B76AEE2A39F6E8F0872D3F;
 			remoteInfo = "JZZTools-ZZNavigationBar";
 		};
 		768315C58D98F0B3D2E765BE45EC22D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41905F539F7DDDD27FF3825FE81216FA;
+			remoteGlobalIDString = F9EAF89D6C0F8A68E5F3BF7AF019CAA0;
 			remoteInfo = JZZTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0000800D4ABF97CEB0AB67368D73BEFA /* SaveUsePHAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SaveUsePHAsset.m; path = ZZTools/Classes/SaveVideoMethod/SaveUsePHAsset.m; sourceTree = "<group>"; };
-		000742DAF9EB8084C8E58405CE0C0C64 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+CustomPhotoAlbum.m"; path = "ZZTools/Classes/SaveVideoMethod/ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
-		018B454E0A841DD3DAE9FB811296783B /* ZZNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZNavigationViewController.m; path = ZZTools/Classes/zzNavigationView/ZZNavigationViewController.m; sourceTree = "<group>"; };
-		031870ACC48BC842323AA7AF601A1171 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0475564D96F9079BD63759FB45C01BEF /* TimeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimeTool.h; path = ZZTools/Classes/TimeTool.h; sourceTree = "<group>"; };
-		05DD9EB87AE16D9745A5138AB22463D0 /* ZZNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNavigationViewController.h; path = ZZTools/Classes/zzNavigationView/ZZNavigationViewController.h; sourceTree = "<group>"; };
-		1B36E042DC32D28026B29278AA4EE61C /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+CustomPhotoAlbum.h"; path = "ZZTools/Classes/SaveVideoMethod/ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
-		241419B35B4C0683EE07D1C5685F691E /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LayoutMethods.m"; path = "ZZTools/Classes/HandyFrame/UIView+LayoutMethods.m"; sourceTree = "<group>"; };
-		34F00A46C593EEB6363951E93C31B464 /* back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@3x.png"; path = "ZZTools/Resources/back@3x.png"; sourceTree = "<group>"; };
-		376BB88B1C280C980BEA11BAD6D72603 /* ZZTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZTools.h; path = ZZTools/Classes/ZZTools.h; sourceTree = "<group>"; };
-		390C685EEE37263BEDD36653BBADD68F /* NSBundle+privateBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+privateBundle.m"; path = "ZZTools/Classes/NSBundle+privateBundle.m"; sourceTree = "<group>"; };
-		3A5BAED19E2943B94A4F503DAB5E7588 /* UIImage+Corner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Corner.m"; path = "ZZTools/Classes/UIImage+Corner.m"; sourceTree = "<group>"; };
-		415F9C04BB457CA3BF1120A76DE50095 /* ZZNavigationBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZZNavigationBar.xib; path = ZZTools/Resources/ZZNavigationBar.xib; sourceTree = "<group>"; };
+		018B84C033BA8B014E7C1590521F16B2 /* JZZTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZZTools.xcconfig; sourceTree = "<group>"; };
+		0E5A4596F4AE14567C832467BB9D3011 /* SaveUsePHAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SaveUsePHAsset.h; path = ZZTools/Classes/SaveVideoMethod/SaveUsePHAsset.h; sourceTree = "<group>"; };
+		1710A887575759D41A8B3DC80BF37D3C /* JZZTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZZTools-umbrella.h"; sourceTree = "<group>"; };
+		1825B210E10D3876EF5E8144CEE80A2B /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+CustomPhotoAlbum.m"; path = "ZZTools/Classes/SaveVideoMethod/ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		21E5B692EB23872BA3226B5A62730387 /* SaveUsePHAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SaveUsePHAsset.m; path = ZZTools/Classes/SaveVideoMethod/SaveUsePHAsset.m; sourceTree = "<group>"; };
+		2F28CA5A0C53A0D2144A1BF0EF9658C3 /* UIImage+PrivateBundleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PrivateBundleImage.h"; path = "ZZTools/Classes/UIImage+PrivateBundleImage.h"; sourceTree = "<group>"; };
+		3080C4323F0CDE6B16B717DF774F3CFA /* ZZTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZTools.h; path = ZZTools/Classes/ZZTools.h; sourceTree = "<group>"; };
+		370A1A4A3ED63A9F25FAF934C788013D /* NSBundle+privateBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+privateBundle.h"; path = "ZZTools/Classes/NSBundle+privateBundle.h"; sourceTree = "<group>"; };
+		3BD01D9F3F0F7FBC537026DB6ED0ED93 /* ZZTools.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZTools.mm; path = ZZTools/Classes/ZZTools.mm; sourceTree = "<group>"; };
 		4502C4ADA2F9E9BF90867F6C49EF3AD1 /* Pods-XZ_login-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XZ_login-acknowledgements.plist"; sourceTree = "<group>"; };
-		47B90764110243ED88A3B5E2F7B3388B /* ZZObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZObject.mm; path = ZZTools/Classes/ZZObject.mm; sourceTree = "<group>"; };
-		504DB6185AE862FE5D81C1A609DE6653 /* TimeTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = TimeTool.mm; path = ZZTools/Classes/TimeTool.mm; sourceTree = "<group>"; };
-		5212497768FBD168DA715564F1E05373 /* UIImage+Corner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Corner.h"; path = "ZZTools/Classes/UIImage+Corner.h"; sourceTree = "<group>"; };
+		5282A8C581FFEBACA79E862135459A28 /* ZZNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNavigationViewController.h; path = ZZTools/Classes/zzNavigationView/ZZNavigationViewController.h; sourceTree = "<group>"; };
+		579C9892087365E5603358C5C4EDC681 /* JZZTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JZZTools.modulemap; sourceTree = "<group>"; };
 		6024F10EED7C4FB0CD6B547CCC60B10B /* Pods_XZ_login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XZ_login.framework; path = "Pods-XZ_login.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6385B9BA51AAC30BE3246F657966BC9E /* ResourceBundle-ZZNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZZNavigationBar-Info.plist"; sourceTree = "<group>"; };
+		6855BF27CD448161A7F0F9C9434551FF /* ZZNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNavigationBar.h; path = ZZTools/Classes/zzNavigationView/ZZNavigationBar.h; sourceTree = "<group>"; };
 		693D5537B9CDAC735908CA8034C86AD2 /* Pods-XZ_login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XZ_login-umbrella.h"; sourceTree = "<group>"; };
 		6A9330A7BF030544D889B0A854764498 /* Pods-XZ_login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZ_login.debug.xcconfig"; sourceTree = "<group>"; };
-		70B826B9745F3829137E6595C956DFAC /* ZZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZObject.h; path = ZZTools/Classes/ZZObject.h; sourceTree = "<group>"; };
+		6E292AB29453C2F7C1E7A547E022F6B7 /* UIViewController+PrivateNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PrivateNavigationBar.m"; path = "ZZTools/Classes/zzNavigationView/UIViewController+PrivateNavigationBar.m"; sourceTree = "<group>"; };
 		72DAC05893E265D39C0EE12EC33A632E /* JZZTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JZZTools.framework; path = JZZTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CFC6D5721895701FE6B5044B9B2CE82 /* JZZTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZZTools.xcconfig; sourceTree = "<group>"; };
-		865CC0B607B155E8CCD5CC5224F0E7E1 /* NSBundle+privateBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+privateBundle.h"; path = "ZZTools/Classes/NSBundle+privateBundle.h"; sourceTree = "<group>"; };
-		9300D8277BB9D9020DBD4CF8530F809E /* ZZNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNavigationBar.h; path = ZZTools/Classes/zzNavigationView/ZZNavigationBar.h; sourceTree = "<group>"; };
+		77B7EAF4D9C172543D1060931A456736 /* JZZTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZZTools-prefix.pch"; sourceTree = "<group>"; };
+		77EF7E775441FC4ED899A0D4FDA5D3A8 /* UIImage+Corner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Corner.h"; path = "ZZTools/Classes/UIImage+Corner.h"; sourceTree = "<group>"; };
+		7A95C91A4495454960D9EB449153C0D7 /* ZZNavigationBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZZNavigationBar.xib; path = ZZTools/Resources/ZZNavigationBar.xib; sourceTree = "<group>"; };
+		83DEC017A16D6A8C8A3D054BF8880DC3 /* ZZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZObject.h; path = ZZTools/Classes/ZZObject.h; sourceTree = "<group>"; };
+		8EB2A428633F5C57F36C5E3709930731 /* TimeTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = TimeTool.mm; path = ZZTools/Classes/TimeTool.mm; sourceTree = "<group>"; };
+		901D12DB25DDA36EF076572B28C32E96 /* back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@3x.png"; path = "ZZTools/Resources/back@3x.png"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C55933C246366208D8666D9D0A935F /* ZZNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZNavigationBar.m; path = ZZTools/Classes/zzNavigationView/ZZNavigationBar.m; sourceTree = "<group>"; };
+		95CEE44AC5EC56C3BA51B9B1151FEF2D /* NSBundle+privateBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+privateBundle.m"; path = "ZZTools/Classes/NSBundle+privateBundle.m"; sourceTree = "<group>"; };
+		96C759A57BEA0006548878E693A85637 /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "ZZTools/Resources/back@2x.png"; sourceTree = "<group>"; };
 		98280F8B3149A30FC00F6567B4D7BF18 /* Pods-XZ_login-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XZ_login-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9AAF2829B36B65AA219F9F43754A3D42 /* JZZTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZZTools-umbrella.h"; sourceTree = "<group>"; };
 		9E75F9E2D7487C3260AFE98330694F66 /* Pods-XZ_login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XZ_login.modulemap"; sourceTree = "<group>"; };
-		B6CF18CA807FB9E8AE5269BB674145B3 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LayoutMethods.h"; path = "ZZTools/Classes/HandyFrame/UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		AD8440E53252BF280A9A31E2AD78488C /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LayoutMethods.h"; path = "ZZTools/Classes/HandyFrame/UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		B041AEF91CD5683761B9E9D8A8F802CE /* PHAsset+Sneaky.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PHAsset+Sneaky.h"; path = "ZZTools/Classes/SaveVideoMethod/PHAsset+Sneaky.h"; sourceTree = "<group>"; };
+		B0FB94E26FB675039D51D281E8970211 /* UIImage+Corner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Corner.m"; path = "ZZTools/Classes/UIImage+Corner.m"; sourceTree = "<group>"; };
+		B15DC170CA0EC95A774953ADEDC078B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A12BB84BEAF653962C343048EBEDB2 /* UIViewController+PrivateNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PrivateNavigationBar.h"; path = "ZZTools/Classes/zzNavigationView/UIViewController+PrivateNavigationBar.h"; sourceTree = "<group>"; };
 		BF9CC68401A4BC6BDBF2EB06CBD6765E /* Pods-XZ_login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZ_login.release.xcconfig"; sourceTree = "<group>"; };
 		C0D46E667976F7F67072CA758D97B7A4 /* Pods-XZ_login-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XZ_login-resources.sh"; sourceTree = "<group>"; };
-		C3F957D141D493D46994B4B0092FF0A9 /* UIViewController+PrivateNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PrivateNavigationBar.h"; path = "ZZTools/Classes/zzNavigationView/UIViewController+PrivateNavigationBar.h"; sourceTree = "<group>"; };
-		D3D665571A03BD3E3C6B0826946E067F /* UIViewController+PrivateNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PrivateNavigationBar.m"; path = "ZZTools/Classes/zzNavigationView/UIViewController+PrivateNavigationBar.m"; sourceTree = "<group>"; };
-		D4C7C1D3CBB88792C95E7345D629160F /* PHAsset+Sneaky.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PHAsset+Sneaky.h"; path = "ZZTools/Classes/SaveVideoMethod/PHAsset+Sneaky.h"; sourceTree = "<group>"; };
+		C5A9F374A490CC437F91699F9E6D46C3 /* JZZTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JZZTools-dummy.m"; sourceTree = "<group>"; };
+		CDD39B116D4F6D133A36E320A084A6D0 /* ResourceBundle-ZZNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZZNavigationBar-Info.plist"; sourceTree = "<group>"; };
+		D3C2F65D9F38640C41E8FDABC634860C /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+CustomPhotoAlbum.h"; path = "ZZTools/Classes/SaveVideoMethod/ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		D4A4DEAC3273051A2F99ADAE8FF247F9 /* ZZNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZNavigationViewController.m; path = ZZTools/Classes/zzNavigationView/ZZNavigationViewController.m; sourceTree = "<group>"; };
+		D51C9F72AA3CC79E80FA25F9B87FA3EC /* UIImage+PrivateBundleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PrivateBundleImage.m"; path = "ZZTools/Classes/UIImage+PrivateBundleImage.m"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D776C4D7758BE70F916395FD7B32FC17 /* Pods-XZ_login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XZ_login-dummy.m"; sourceTree = "<group>"; };
 		D82A3EAE349DF1C5A6AF3379688C2D36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D975694C3B1D3A19C9FF10D4E01F6B56 /* SaveUsePHAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SaveUsePHAsset.h; path = ZZTools/Classes/SaveVideoMethod/SaveUsePHAsset.h; sourceTree = "<group>"; };
-		DF031BD9FCD81CC7E753DCA63A3C5A47 /* JZZTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZZTools-prefix.pch"; sourceTree = "<group>"; };
-		E37D49FA6CB016D701B1793AF633156A /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "ZZTools/Resources/back@2x.png"; sourceTree = "<group>"; };
+		DABB2A54FB880F5AA0E11860E0949057 /* ZZObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZObject.mm; path = ZZTools/Classes/ZZObject.mm; sourceTree = "<group>"; };
+		DB10C2485A5567A053EF8A1B8BD231B3 /* TimeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimeTool.h; path = ZZTools/Classes/TimeTool.h; sourceTree = "<group>"; };
+		DE28A057A313FA0F17F2D60037CE913B /* ZZNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZNavigationBar.m; path = ZZTools/Classes/zzNavigationView/ZZNavigationBar.m; sourceTree = "<group>"; };
+		EBA9D6097F63D9EB2C54BEFC0EEDF60A /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LayoutMethods.m"; path = "ZZTools/Classes/HandyFrame/UIView+LayoutMethods.m"; sourceTree = "<group>"; };
 		EF38FD3FE9EC21C586D8E72D7E951D72 /* Pods-XZ_login-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XZ_login-frameworks.sh"; sourceTree = "<group>"; };
-		F22C32E41F066E88B2BECDF58AF7F27D /* ZZTools.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZTools.mm; path = ZZTools/Classes/ZZTools.mm; sourceTree = "<group>"; };
 		F23DD5626488DE753CEDC74EF8D39681 /* ZZNavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZZNavigationBar.bundle; path = "JZZTools-ZZNavigationBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA5ACCE769859F645E7B515485942536 /* JZZTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JZZTools-dummy.m"; sourceTree = "<group>"; };
-		FCB9E3B8094A69DFB255724FC4B9F75A /* JZZTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JZZTools.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		523972E6899F4B85A51509ACDBD769F5 /* Frameworks */ = {
+		3338E37ACEED8E46AEB68F3CBE58CE48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AFEED873DED6FF2C319528E114A3F77 /* Frameworks */ = {
+		5BED1D56EC553CF5A08A4E0396B855F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2378B00947951F13851DDE5C358CA226 /* Foundation.framework in Frameworks */,
+				FEA13A96EE79B9FB411CD98482729F8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,39 +144,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		296E1741A252FC9C479CFC518F99BC17 /* JZZTools */ = {
-			isa = PBXGroup;
-			children = (
-				1B36E042DC32D28026B29278AA4EE61C /* ALAssetsLibrary+CustomPhotoAlbum.h */,
-				000742DAF9EB8084C8E58405CE0C0C64 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
-				865CC0B607B155E8CCD5CC5224F0E7E1 /* NSBundle+privateBundle.h */,
-				390C685EEE37263BEDD36653BBADD68F /* NSBundle+privateBundle.m */,
-				D4C7C1D3CBB88792C95E7345D629160F /* PHAsset+Sneaky.h */,
-				D975694C3B1D3A19C9FF10D4E01F6B56 /* SaveUsePHAsset.h */,
-				0000800D4ABF97CEB0AB67368D73BEFA /* SaveUsePHAsset.m */,
-				0475564D96F9079BD63759FB45C01BEF /* TimeTool.h */,
-				504DB6185AE862FE5D81C1A609DE6653 /* TimeTool.mm */,
-				5212497768FBD168DA715564F1E05373 /* UIImage+Corner.h */,
-				3A5BAED19E2943B94A4F503DAB5E7588 /* UIImage+Corner.m */,
-				B6CF18CA807FB9E8AE5269BB674145B3 /* UIView+LayoutMethods.h */,
-				241419B35B4C0683EE07D1C5685F691E /* UIView+LayoutMethods.m */,
-				C3F957D141D493D46994B4B0092FF0A9 /* UIViewController+PrivateNavigationBar.h */,
-				D3D665571A03BD3E3C6B0826946E067F /* UIViewController+PrivateNavigationBar.m */,
-				9300D8277BB9D9020DBD4CF8530F809E /* ZZNavigationBar.h */,
-				93C55933C246366208D8666D9D0A935F /* ZZNavigationBar.m */,
-				05DD9EB87AE16D9745A5138AB22463D0 /* ZZNavigationViewController.h */,
-				018B454E0A841DD3DAE9FB811296783B /* ZZNavigationViewController.m */,
-				70B826B9745F3829137E6595C956DFAC /* ZZObject.h */,
-				47B90764110243ED88A3B5E2F7B3388B /* ZZObject.mm */,
-				376BB88B1C280C980BEA11BAD6D72603 /* ZZTools.h */,
-				F22C32E41F066E88B2BECDF58AF7F27D /* ZZTools.mm */,
-				8167B940F182AC03C20953FE00B2AEF1 /* Resources */,
-				5A2B612999CACDC0861E7898E74DFE42 /* Support Files */,
-			);
-			name = JZZTools;
-			path = JZZTools;
-			sourceTree = "<group>";
-		};
 		2F0A92805C1A82507F5C69420BCDFE66 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,24 +160,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		46E020C3274F6C2B30B39F865B853E07 /* Pods */ = {
+		6C465750B300DD38715DAB95463633D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				296E1741A252FC9C479CFC518F99BC17 /* JZZTools */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5A2B612999CACDC0861E7898E74DFE42 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				031870ACC48BC842323AA7AF601A1171 /* Info.plist */,
-				FCB9E3B8094A69DFB255724FC4B9F75A /* JZZTools.modulemap */,
-				7CFC6D5721895701FE6B5044B9B2CE82 /* JZZTools.xcconfig */,
-				FA5ACCE769859F645E7B515485942536 /* JZZTools-dummy.m */,
-				DF031BD9FCD81CC7E753DCA63A3C5A47 /* JZZTools-prefix.pch */,
-				9AAF2829B36B65AA219F9F43754A3D42 /* JZZTools-umbrella.h */,
-				6385B9BA51AAC30BE3246F657966BC9E /* ResourceBundle-ZZNavigationBar-Info.plist */,
+				B15DC170CA0EC95A774953ADEDC078B3 /* Info.plist */,
+				579C9892087365E5603358C5C4EDC681 /* JZZTools.modulemap */,
+				018B84C033BA8B014E7C1590521F16B2 /* JZZTools.xcconfig */,
+				C5A9F374A490CC437F91699F9E6D46C3 /* JZZTools-dummy.m */,
+				77B7EAF4D9C172543D1060931A456736 /* JZZTools-prefix.pch */,
+				1710A887575759D41A8B3DC80BF37D3C /* JZZTools-umbrella.h */,
+				CDD39B116D4F6D133A36E320A084A6D0 /* ResourceBundle-ZZNavigationBar-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JZZTools";
@@ -217,20 +180,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				46E020C3274F6C2B30B39F865B853E07 /* Pods */,
+				A1540D3150FA455941B2940FC0B6F8D8 /* Pods */,
 				B6CEA4AB9C3436362C2C6AED247B8E81 /* Products */,
 				2F0A92805C1A82507F5C69420BCDFE66 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8167B940F182AC03C20953FE00B2AEF1 /* Resources */ = {
+		A1540D3150FA455941B2940FC0B6F8D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E37D49FA6CB016D701B1793AF633156A /* back@2x.png */,
-				34F00A46C593EEB6363951E93C31B464 /* back@3x.png */,
-				415F9C04BB457CA3BF1120A76DE50095 /* ZZNavigationBar.xib */,
+				B8CAD92BABD011A7DAE286644C0AD5B0 /* JZZTools */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B6CEA4AB9C3436362C2C6AED247B8E81 /* Products */ = {
@@ -241,6 +202,41 @@
 				F23DD5626488DE753CEDC74EF8D39681 /* ZZNavigationBar.bundle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B8CAD92BABD011A7DAE286644C0AD5B0 /* JZZTools */ = {
+			isa = PBXGroup;
+			children = (
+				D3C2F65D9F38640C41E8FDABC634860C /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				1825B210E10D3876EF5E8144CEE80A2B /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				370A1A4A3ED63A9F25FAF934C788013D /* NSBundle+privateBundle.h */,
+				95CEE44AC5EC56C3BA51B9B1151FEF2D /* NSBundle+privateBundle.m */,
+				B041AEF91CD5683761B9E9D8A8F802CE /* PHAsset+Sneaky.h */,
+				0E5A4596F4AE14567C832467BB9D3011 /* SaveUsePHAsset.h */,
+				21E5B692EB23872BA3226B5A62730387 /* SaveUsePHAsset.m */,
+				DB10C2485A5567A053EF8A1B8BD231B3 /* TimeTool.h */,
+				8EB2A428633F5C57F36C5E3709930731 /* TimeTool.mm */,
+				77EF7E775441FC4ED899A0D4FDA5D3A8 /* UIImage+Corner.h */,
+				B0FB94E26FB675039D51D281E8970211 /* UIImage+Corner.m */,
+				2F28CA5A0C53A0D2144A1BF0EF9658C3 /* UIImage+PrivateBundleImage.h */,
+				D51C9F72AA3CC79E80FA25F9B87FA3EC /* UIImage+PrivateBundleImage.m */,
+				AD8440E53252BF280A9A31E2AD78488C /* UIView+LayoutMethods.h */,
+				EBA9D6097F63D9EB2C54BEFC0EEDF60A /* UIView+LayoutMethods.m */,
+				B4A12BB84BEAF653962C343048EBEDB2 /* UIViewController+PrivateNavigationBar.h */,
+				6E292AB29453C2F7C1E7A547E022F6B7 /* UIViewController+PrivateNavigationBar.m */,
+				6855BF27CD448161A7F0F9C9434551FF /* ZZNavigationBar.h */,
+				DE28A057A313FA0F17F2D60037CE913B /* ZZNavigationBar.m */,
+				5282A8C581FFEBACA79E862135459A28 /* ZZNavigationViewController.h */,
+				D4A4DEAC3273051A2F99ADAE8FF247F9 /* ZZNavigationViewController.m */,
+				83DEC017A16D6A8C8A3D054BF8880DC3 /* ZZObject.h */,
+				DABB2A54FB880F5AA0E11860E0949057 /* ZZObject.mm */,
+				3080C4323F0CDE6B16B717DF774F3CFA /* ZZTools.h */,
+				3BD01D9F3F0F7FBC537026DB6ED0ED93 /* ZZTools.mm */,
+				D6B36C5BE029F85CD23D86C35F3E279D /* Resources */,
+				6C465750B300DD38715DAB95463633D6 /* Support Files */,
+			);
+			name = JZZTools;
+			path = JZZTools;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -269,6 +265,16 @@
 			path = "Target Support Files/Pods-XZ_login";
 			sourceTree = "<group>";
 		};
+		D6B36C5BE029F85CD23D86C35F3E279D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96C759A57BEA0006548878E693A85637 /* back@2x.png */,
+				901D12DB25DDA36EF076572B28C32E96 /* back@3x.png */,
+				7A95C91A4495454960D9EB449153C0D7 /* ZZNavigationBar.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -280,36 +286,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DA2B6BE4D4934483E1C40D1200BA289 /* Headers */ = {
+		4D5AE5017C5413B4717E68AEA4A50225 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3913AD3EEA011D672C7FB7CBDEB59D /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */,
-				0992DA90E64B95517BE47111F5C2EE55 /* JZZTools-umbrella.h in Headers */,
-				7B26C41C86C83FE4ABE7010BB1B26F8B /* NSBundle+privateBundle.h in Headers */,
-				C5EADC67F92348040EBE58902D7BD189 /* PHAsset+Sneaky.h in Headers */,
-				252D2168D133DD38FB06E1970EF267B0 /* SaveUsePHAsset.h in Headers */,
-				185734DA727D5FBF9A5B2A2DA0B6D4B8 /* TimeTool.h in Headers */,
-				01C68984E96DACFCD5D1FD19553A176B /* UIImage+Corner.h in Headers */,
-				FD87640F78F1A15DDC78C0BC747C3156 /* UIView+LayoutMethods.h in Headers */,
-				9038CE8A5A4B884DBE4B27051348A4F7 /* UIViewController+PrivateNavigationBar.h in Headers */,
-				EA1117B3EAA439DB79927E9D62DCE746 /* ZZNavigationBar.h in Headers */,
-				1E141C1C4DA323B3A2F97786EA7AC168 /* ZZNavigationViewController.h in Headers */,
-				DD907958E528416AB11808872760AC9B /* ZZObject.h in Headers */,
-				1B013A9D651B9C29C92D5A0C148D77FA /* ZZTools.h in Headers */,
+				F21DADB93265A4E003A26C5DDE912358 /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */,
+				B42D8555F2C6BB7014162F7607E43682 /* JZZTools-umbrella.h in Headers */,
+				A84D9503ED5AD4C5EAE11B23C41CADFC /* NSBundle+privateBundle.h in Headers */,
+				6594FA01563D12594FD55610F329AAB1 /* PHAsset+Sneaky.h in Headers */,
+				B364784AF21FDF5AC00C1C5CE3793401 /* SaveUsePHAsset.h in Headers */,
+				722761BDBE1C2511C8741B2D8E1B93C8 /* TimeTool.h in Headers */,
+				706D3BFD027D1A096400ED57CA9236BB /* UIImage+Corner.h in Headers */,
+				FC2E41B25832C149650F558B540EC6FA /* UIImage+PrivateBundleImage.h in Headers */,
+				26FAC13FAFDEEC9B9EE9824A754FB54D /* UIView+LayoutMethods.h in Headers */,
+				C9D44FB8EC1AA38651D488D785619841 /* UIViewController+PrivateNavigationBar.h in Headers */,
+				822FC9FACACC914BABF0EC49CB21FD98 /* ZZNavigationBar.h in Headers */,
+				12E4AC2A260337C1D2172D3E20E99630 /* ZZNavigationViewController.h in Headers */,
+				68EC59954543B8E0B94FF2E62D91ED1C /* ZZObject.h in Headers */,
+				B2FC0F2D3D8593645EE1CB6344C8049F /* ZZTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E9A6C11B185F149540664061D414451 /* JZZTools-ZZNavigationBar */ = {
+		C8F1C5C542B76AEE2A39F6E8F0872D3F /* JZZTools-ZZNavigationBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B5663FB5473B86CE34AC9897CEE540 /* Build configuration list for PBXNativeTarget "JZZTools-ZZNavigationBar" */;
+			buildConfigurationList = 2B8CE9BF0839337E2320AAACB3653EFB /* Build configuration list for PBXNativeTarget "JZZTools-ZZNavigationBar" */;
 			buildPhases = (
-				8D1AC87EFDA84137CFD65637849D7985 /* Sources */,
-				523972E6899F4B85A51509ACDBD769F5 /* Frameworks */,
-				3CB92C9F0E75E28668B2B6CD45065D12 /* Resources */,
+				B432D7FAE639D8D86F6E9FACD8157BC4 /* Sources */,
+				3338E37ACEED8E46AEB68F3CBE58CE48 /* Frameworks */,
+				128595CC4CA1C79B747DCEF002BE57C5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -319,25 +326,6 @@
 			productName = "JZZTools-ZZNavigationBar";
 			productReference = F23DD5626488DE753CEDC74EF8D39681 /* ZZNavigationBar.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		41905F539F7DDDD27FF3825FE81216FA /* JZZTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6AA7CC178151828C30FA2346ED369A6C /* Build configuration list for PBXNativeTarget "JZZTools" */;
-			buildPhases = (
-				5DA2B6BE4D4934483E1C40D1200BA289 /* Headers */,
-				F0A283156CCF4D76B01C57EF543666E4 /* Sources */,
-				8AFEED873DED6FF2C319528E114A3F77 /* Frameworks */,
-				2CC266A5A09AC42D3A543E4CFD9C2124 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B58CEA1CE5A4FCD63BFCC9D6263FACAD /* PBXTargetDependency */,
-			);
-			name = JZZTools;
-			productName = JZZTools;
-			productReference = 72DAC05893E265D39C0EE12EC33A632E /* JZZTools.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		D11994A0A4AFA20C93AEC8B95CFA0BD9 /* Pods-XZ_login */ = {
 			isa = PBXNativeTarget;
@@ -356,6 +344,25 @@
 			name = "Pods-XZ_login";
 			productName = "Pods-XZ_login";
 			productReference = 6024F10EED7C4FB0CD6B547CCC60B10B /* Pods_XZ_login.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9EAF89D6C0F8A68E5F3BF7AF019CAA0 /* JZZTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1DAC208776A1FE7A75E2250E302AD3 /* Build configuration list for PBXNativeTarget "JZZTools" */;
+			buildPhases = (
+				4D5AE5017C5413B4717E68AEA4A50225 /* Headers */,
+				2A67B41C9B2D1A8518AF6DB878039311 /* Sources */,
+				5BED1D56EC553CF5A08A4E0396B855F8 /* Frameworks */,
+				DEDD92B3E646B7C5D1604A43A6A2C7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6F285CF84358286803F31BF5884FDD /* PBXTargetDependency */,
+			);
+			name = JZZTools;
+			productName = JZZTools;
+			productReference = 72DAC05893E265D39C0EE12EC33A632E /* JZZTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -379,32 +386,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41905F539F7DDDD27FF3825FE81216FA /* JZZTools */,
-				1E9A6C11B185F149540664061D414451 /* JZZTools-ZZNavigationBar */,
+				F9EAF89D6C0F8A68E5F3BF7AF019CAA0 /* JZZTools */,
+				C8F1C5C542B76AEE2A39F6E8F0872D3F /* JZZTools-ZZNavigationBar */,
 				D11994A0A4AFA20C93AEC8B95CFA0BD9 /* Pods-XZ_login */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CC266A5A09AC42D3A543E4CFD9C2124 /* Resources */ = {
+		128595CC4CA1C79B747DCEF002BE57C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525B7CD69C8FD248F5158DB0B203F6C7 /* back@2x.png in Resources */,
-				B5EC2F03BF8EE69AC2382CD3BEA29376 /* back@3x.png in Resources */,
-				88FFEE44CBA8F79F6339918FB8CE8352 /* ZZNavigationBar.bundle in Resources */,
-				1BC455C43C4E751439DCD0BB8F5A7A8A /* ZZNavigationBar.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CB92C9F0E75E28668B2B6CD45065D12 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3D8D8323FA0A9DE336A4F9B942C02D5 /* back@2x.png in Resources */,
-				E7D34EF3359EB05415928D6245697923 /* back@3x.png in Resources */,
-				94CC0B81D8491D3715BD4B50E9297E3A /* ZZNavigationBar.xib in Resources */,
+				1279DB0056D0480B03F28D887B2BF9AF /* back@2x.png in Resources */,
+				37386D6D62B84793C4DE4B6982D3D658 /* back@3x.png in Resources */,
+				1298C179C29FFE611195E44E6DFD7E70 /* ZZNavigationBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,9 +411,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEDD92B3E646B7C5D1604A43A6A2C7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A736F3D61A74A47C2C9AA60F347E31E4 /* back@2x.png in Resources */,
+				8D21404616A9D6E75E51AEB7FAB89E75 /* back@3x.png in Resources */,
+				CB6EC5332AF4DCB306F0ADF68C9C3C2A /* ZZNavigationBar.bundle in Resources */,
+				8233C52944118D15DC09BC312EBDDDBD /* ZZNavigationBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2A67B41C9B2D1A8518AF6DB878039311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65BD9CAE168196EC1306DD5054E0A89 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+				64CE6C8D4D0F8C4905C94464B1609651 /* JZZTools-dummy.m in Sources */,
+				A4F3A8624904A82D0CF3C81AD2E050E7 /* NSBundle+privateBundle.m in Sources */,
+				2941B3CF4AA9A18668110BF97265F802 /* SaveUsePHAsset.m in Sources */,
+				F8FB115BC4717B5C5BE0580613614E1D /* TimeTool.mm in Sources */,
+				98A51C8173B24C41F8BE38C23D529872 /* UIImage+Corner.m in Sources */,
+				C0EA7906258AD135942B2F694211C356 /* UIImage+PrivateBundleImage.m in Sources */,
+				5ABB2F0E4B07A375D965C5636E074F99 /* UIView+LayoutMethods.m in Sources */,
+				C47AAF9527DFB88247691C6374ABE049 /* UIViewController+PrivateNavigationBar.m in Sources */,
+				9D6F43AE847A14BF31E5085D33EB9483 /* ZZNavigationBar.m in Sources */,
+				56EBFCF34E4EBB04C8FC111D461F0A4F /* ZZNavigationViewController.m in Sources */,
+				0BAAF8155806C1975821253E8DED8F9E /* ZZObject.mm in Sources */,
+				B2E780DD3FC44932A4CCD81157C16315 /* ZZTools.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CEA8ABFFEE8709806315570DB8EDB1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,29 +453,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D1AC87EFDA84137CFD65637849D7985 /* Sources */ = {
+		B432D7FAE639D8D86F6E9FACD8157BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0A283156CCF4D76B01C57EF543666E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F1D4CA145CD000B0BF91A874EB4FB91 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
-				321EC3F50BD6D9C932974F95D986E7C5 /* JZZTools-dummy.m in Sources */,
-				AFFD93B9894B10261929C8F3A0167B6D /* NSBundle+privateBundle.m in Sources */,
-				EE8564DA6331CCAC217DE9AD0020D0F3 /* SaveUsePHAsset.m in Sources */,
-				2A9AF77FC6EFF8E1F8EE28357751DD79 /* TimeTool.mm in Sources */,
-				05E22EBAD3B33748B5FDBF45CED40CBF /* UIImage+Corner.m in Sources */,
-				4B2DD8A3C36472A1D0E81CB3DCF3F293 /* UIView+LayoutMethods.m in Sources */,
-				1AE41473DFE7579E499F83142F7813B4 /* UIViewController+PrivateNavigationBar.m in Sources */,
-				69A83E0FD3A6D1ED521EA0D0440E70EF /* ZZNavigationBar.m in Sources */,
-				03F41DD17F20A29988FE859C1D90B5C0 /* ZZNavigationViewController.m in Sources */,
-				4767D2D08E5F97851AB07405E6E5AB68 /* ZZObject.mm in Sources */,
-				BD93765B9F92E2F12D2A6DF81A4AAC9B /* ZZTools.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,18 +466,53 @@
 		77AC9C046FE6DB69C7863E1A09BEFB33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JZZTools;
-			target = 41905F539F7DDDD27FF3825FE81216FA /* JZZTools */;
+			target = F9EAF89D6C0F8A68E5F3BF7AF019CAA0 /* JZZTools */;
 			targetProxy = 768315C58D98F0B3D2E765BE45EC22D9 /* PBXContainerItemProxy */;
 		};
-		B58CEA1CE5A4FCD63BFCC9D6263FACAD /* PBXTargetDependency */ = {
+		BE6F285CF84358286803F31BF5884FDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "JZZTools-ZZNavigationBar";
-			target = 1E9A6C11B185F149540664061D414451 /* JZZTools-ZZNavigationBar */;
-			targetProxy = 35AB2FC574F300B368CA60168559DFC4 /* PBXContainerItemProxy */;
+			target = C8F1C5C542B76AEE2A39F6E8F0872D3F /* JZZTools-ZZNavigationBar */;
+			targetProxy = 0EA2B74BFB56D6BCCA504C9F1FB72E8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01444B7AE9EA8AEFC004B6050B726846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018B84C033BA8B014E7C1590521F16B2 /* JZZTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JZZTools/JZZTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JZZTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JZZTools/JZZTools.modulemap";
+				PRODUCT_MODULE_NAME = JZZTools;
+				PRODUCT_NAME = JZZTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		16BC524EDE752B9BB72D7E267116A89A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -598,9 +641,9 @@
 			};
 			name = Release;
 		};
-		378FE9C4BD623F489D6BC71117335613 /* Release */ = {
+		4AFBF6E2CA37263050FC4644A4B27D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CFC6D5721895701FE6B5044B9B2CE82 /* JZZTools.xcconfig */;
+			baseConfigurationReference = 018B84C033BA8B014E7C1590521F16B2 /* JZZTools.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JZZTools";
@@ -612,74 +655,21 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
-		};
-		425C2ED58F82E30F75A6251040D6A0E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CFC6D5721895701FE6B5044B9B2CE82 /* JZZTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JZZTools/JZZTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JZZTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JZZTools/JZZTools.modulemap";
-				PRODUCT_MODULE_NAME = JZZTools;
-				PRODUCT_NAME = JZZTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Debug;
 		};
-		5805F5E744ED16244301FC4C873B2355 /* Release */ = {
+		9A6D6245EB4891CBCF6FD946D9F11842 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CFC6D5721895701FE6B5044B9B2CE82 /* JZZTools.xcconfig */;
+			baseConfigurationReference = 018B84C033BA8B014E7C1590521F16B2 /* JZZTools.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JZZTools/JZZTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JZZTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JZZTools";
+				INFOPLIST_FILE = "Target Support Files/JZZTools/ResourceBundle-ZZNavigationBar-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JZZTools/JZZTools.modulemap";
-				PRODUCT_MODULE_NAME = JZZTools;
-				PRODUCT_NAME = JZZTools;
+				PRODUCT_NAME = ZZNavigationBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -760,25 +750,52 @@
 			};
 			name = Release;
 		};
-		F39C2FC4CD5F1445D78D9F38F237847C /* Debug */ = {
+		FAA1DEE1708B6D8543DE88D98B08C276 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CFC6D5721895701FE6B5044B9B2CE82 /* JZZTools.xcconfig */;
+			baseConfigurationReference = 018B84C033BA8B014E7C1590521F16B2 /* JZZTools.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JZZTools";
-				INFOPLIST_FILE = "Target Support Files/JZZTools/ResourceBundle-ZZNavigationBar-Info.plist";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JZZTools/JZZTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JZZTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZZNavigationBar;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JZZTools/JZZTools.modulemap";
+				PRODUCT_MODULE_NAME = JZZTools;
+				PRODUCT_NAME = JZZTools;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B8CE9BF0839337E2320AAACB3653EFB /* Build configuration list for PBXNativeTarget "JZZTools-ZZNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFBF6E2CA37263050FC4644A4B27D89 /* Debug */,
+				9A6D6245EB4891CBCF6FD946D9F11842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -788,20 +805,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B5663FB5473B86CE34AC9897CEE540 /* Build configuration list for PBXNativeTarget "JZZTools-ZZNavigationBar" */ = {
+		CF1DAC208776A1FE7A75E2250E302AD3 /* Build configuration list for PBXNativeTarget "JZZTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F39C2FC4CD5F1445D78D9F38F237847C /* Debug */,
-				378FE9C4BD623F489D6BC71117335613 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6AA7CC178151828C30FA2346ED369A6C /* Build configuration list for PBXNativeTarget "JZZTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				425C2ED58F82E30F75A6251040D6A0E9 /* Debug */,
-				5805F5E744ED16244301FC4C873B2355 /* Release */,
+				FAA1DEE1708B6D8543DE88D98B08C276 /* Debug */,
+				01444B7AE9EA8AEFC004B6050B726846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

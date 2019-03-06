@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XZ_login"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "登录模块"
 
   #s.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.public_header_files = "XZ_login/Classes/**/*.h"
 
   # s.resource  = "icon.png"
-    s.resources = "XZ_login/Resources/*.png"
+  # s.resources = "XZ_login/Resources/*.png"
     s.resource_bundles = { 'XZ_login' => ['XZ_login/Resources/*.{png,xib}'] }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

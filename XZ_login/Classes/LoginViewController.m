@@ -27,6 +27,13 @@
 
 @implementation LoginViewController
 
+- (instancetype)init {
+    if (self = [super init]) {
+        self = self.initView;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -90,7 +97,8 @@
         _backgroundYuanhuImageView.backgroundColor = [UIColor clearColor];
         [_backgroundYuanhuImageView setContentMode:UIViewContentModeScaleAspectFill];
         _backgroundYuanhuImageView.frame = CGRectMake(0, 0, SCREEN_WIDTH, BACK_VIEW_IMAGE_HEIGHT);
-        _backgroundYuanhuImageView.image = [UIImage imageNamed:@"loginback1"];
+        
+        _backgroundYuanhuImageView.image = [UIImage imageNamed:@"loginback1" inPrivateBundle:@"XZ_login"];
     }
     return _backgroundYuanhuImageView;
 }
@@ -101,7 +109,7 @@
         _backgroundYuanhuView = [[LoginYuanhuView alloc] init];
         _backgroundYuanhuView.backgroundColor = [UIColor clearColor];
         _backgroundYuanhuView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-        [_backgroundYuanhuView addSubview:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loginback2"]]];
+        [_backgroundYuanhuView addSubview:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loginback2" inPrivateBundle:@"XZ_login"]]];
     }
     return _backgroundYuanhuView;
 }
