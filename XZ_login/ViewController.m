@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "LoginViewController.h"
+#import "ZZTools.h"
 
 @interface ViewController ()
 
@@ -19,6 +21,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)bb:(id)sender {
+    LoginViewController * lvc = [[[LoginViewController alloc] init] initView];
+    [self presentViewController:lvc animated:YES completion:^{
+        
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,0 +1,16 @@
+PODS:
+  - JZZTools (0.1.0)
+
+DEPENDENCIES:
+  - JZZTools
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JZZTools
+
+SPEC CHECKSUMS:
+  JZZTools: 941d9fe1a18d1ee9f23aa6cda45bf74b11a2b2ba
+
+PODFILE CHECKSUM: e6d4bb8b0c371e73f5cd348b9a14ca3856b5ef06
+
+COCOAPODS: 1.5.3
