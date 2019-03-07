@@ -29,7 +29,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        self = self.initView;
+        self = [LoginViewController initView:self];
     }
     return self;
 }

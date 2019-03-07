@@ -1,5 +1,5 @@
 PODS:
-  - JZZTools (0.1.4)
+  - JZZTools (0.1.6)
 
 DEPENDENCIES:
   - JZZTools
@@ -9,7 +9,7 @@ SPEC REPOS:
     - JZZTools
 
 SPEC CHECKSUMS:
-  JZZTools: 71d8df8ea5739bd1de28adb94d10a3f4da4de764
+  JZZTools: 77ff03f7ff46ca5c32e9ac31757db66c9005d93b
 
 PODFILE CHECKSUM: e6d4bb8b0c371e73f5cd348b9a14ca3856b5ef06
 

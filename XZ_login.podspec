@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XZ_login"
-  s.version      = "0.0.5"
+  s.version      = "0.0.7"
   s.summary      = "登录模块"
 
   #s.description  = <<-DESC
