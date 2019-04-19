@@ -21,6 +21,32 @@
 		1802CF5F222D203D00D4EC25 /* LoginYuanhuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CF58222D203C00D4EC25 /* LoginYuanhuView.m */; };
 		1802CF60222D203D00D4EC25 /* loginback.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802CF5A222D203C00D4EC25 /* loginback.png */; };
 		1802CF61222D203D00D4EC25 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802CF5B222D203C00D4EC25 /* LoginViewController.m */; };
+		182D2A032265CB8300795CCC /* registerback1.png in Resources */ = {isa = PBXBuildFile; fileRef = 182D2A022265CB8300795CCC /* registerback1.png */; };
+		182D2A062265D12A00795CCC /* ZZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D2A052265D12A00795CCC /* ZZButton.m */; };
+		182D2A092265E59B00795CCC /* StepProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D2A082265E59B00795CCC /* StepProgressView.m */; };
+		182D2A0C22680EB800795CCC /* UIViewController+KeyboardCorver.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D2A0B22680EB700795CCC /* UIViewController+KeyboardCorver.m */; };
+		182D2A2022686EB800795CCC /* UINavigationController+ShouldPopExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D2A1F22686EB800795CCC /* UINavigationController+ShouldPopExtention.m */; };
+		182D2A2322696BD900795CCC /* VerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D2A2222696BD900795CCC /* VerifyCodeViewController.m */; };
+		182D2A26226981B800795CCC /* ForgetVerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D2A25226981B800795CCC /* ForgetVerifyCodeViewController.m */; };
+		182D2A2A2269A2FA00795CCC /* GGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D2A282269A2FA00795CCC /* GGProgressView.m */; };
+		183B0A6E223B3F8E00154FA1 /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B0A6D223B3F8E00154FA1 /* CircleButton.m */; };
+		1858CE5E2264692B00CB1C31 /* ZZPlaceHolderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE5D2264692B00CB1C31 /* ZZPlaceHolderLabel.m */; };
+		1858CE6522647F3600CB1C31 /* qqLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858CE5F22647F3500CB1C31 /* qqLogin@2x.png */; };
+		1858CE6622647F3600CB1C31 /* wbLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858CE6022647F3500CB1C31 /* wbLogin@2x.png */; };
+		1858CE6722647F3600CB1C31 /* wbLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858CE6122647F3500CB1C31 /* wbLogin@3x.png */; };
+		1858CE6822647F3600CB1C31 /* wxLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858CE6222647F3500CB1C31 /* wxLogin@3x.png */; };
+		1858CE6922647F3600CB1C31 /* wxLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858CE6322647F3600CB1C31 /* wxLogin@2x.png */; };
+		1858CE6A22647F3600CB1C31 /* qqLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858CE6422647F3600CB1C31 /* qqLogin@3x.png */; };
+		1858CE6D22648AA800CB1C31 /* LoginBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE6C22648AA800CB1C31 /* LoginBackView.m */; };
+		1858CE7022648FE600CB1C31 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE6F22648FE600CB1C31 /* RegisterViewController.m */; };
+		1858CE7322648FFD00CB1C31 /* LoginBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE7222648FFD00CB1C31 /* LoginBackViewController.m */; };
+		1858CE762264931900CB1C31 /* ZZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE752264931900CB1C31 /* ZZLabel.m */; };
+		1858CE7A2265A9F300CB1C31 /* UIViewController+DropdownReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE792265A9F300CB1C31 /* UIViewController+DropdownReturn.m */; };
+		1858CE7D2265AA5E00CB1C31 /* PresentVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE7C2265AA5E00CB1C31 /* PresentVCAnimation.m */; };
+		1858CE802265AAB800CB1C31 /* DismissVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE7F2265AAB800CB1C31 /* DismissVCAnimation.m */; };
+		1858CE832265AAE700CB1C31 /* SwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858CE822265AAE700CB1C31 /* SwipeUpInteractiveTransition.m */; };
+		18E66DE722367F9E00B63410 /* UIBezierPath+TextPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E66DE622367F9E00B63410 /* UIBezierPath+TextPath.m */; };
+		18EAC7DB223B9D6600858086 /* UITextView+placeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAC7DA223B9D6600858086 /* UITextView+placeHolder.m */; };
 		4CED2FB88A8E1FB1FFC95DE4 /* Pods_XZ_login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBA7C973A21724E673DE2E1 /* Pods_XZ_login.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +93,53 @@
 		1802CF59222D203C00D4EC25 /* LoginYuanhuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginYuanhuView.h; sourceTree = "<group>"; };
 		1802CF5A222D203C00D4EC25 /* loginback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginback.png; sourceTree = "<group>"; };
 		1802CF5B222D203C00D4EC25 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		182D2A022265CB8300795CCC /* registerback1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerback1.png; sourceTree = "<group>"; };
+		182D2A042265D12A00795CCC /* ZZButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZButton.h; sourceTree = "<group>"; };
+		182D2A052265D12A00795CCC /* ZZButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZButton.m; sourceTree = "<group>"; };
+		182D2A072265E59B00795CCC /* StepProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepProgressView.h; sourceTree = "<group>"; };
+		182D2A082265E59B00795CCC /* StepProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepProgressView.m; sourceTree = "<group>"; };
+		182D2A0A22680EB700795CCC /* UIViewController+KeyboardCorver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardCorver.h"; sourceTree = "<group>"; };
+		182D2A0B22680EB700795CCC /* UIViewController+KeyboardCorver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardCorver.m"; sourceTree = "<group>"; };
+		182D2A1E22686EB800795CCC /* UINavigationController+ShouldPopExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ShouldPopExtention.h"; sourceTree = "<group>"; };
+		182D2A1F22686EB800795CCC /* UINavigationController+ShouldPopExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ShouldPopExtention.m"; sourceTree = "<group>"; };
+		182D2A2122696BD900795CCC /* VerifyCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyCodeViewController.h; sourceTree = "<group>"; };
+		182D2A2222696BD900795CCC /* VerifyCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeViewController.m; sourceTree = "<group>"; };
+		182D2A24226981B800795CCC /* ForgetVerifyCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetVerifyCodeViewController.h; sourceTree = "<group>"; };
+		182D2A25226981B800795CCC /* ForgetVerifyCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetVerifyCodeViewController.m; sourceTree = "<group>"; };
+		182D2A282269A2FA00795CCC /* GGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProgressView.m; sourceTree = "<group>"; };
+		182D2A292269A2FA00795CCC /* GGProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProgressView.h; sourceTree = "<group>"; };
+		183B0A6C223B3F8E00154FA1 /* CircleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
+		183B0A6D223B3F8E00154FA1 /* CircleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleButton.m; sourceTree = "<group>"; };
+		183B0A6F223B3FEB00154FA1 /* LoginHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHeader.h; sourceTree = "<group>"; };
+		183B0A70223B54E600154FA1 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		1858CE5C2264692B00CB1C31 /* ZZPlaceHolderLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPlaceHolderLabel.h; sourceTree = "<group>"; };
+		1858CE5D2264692B00CB1C31 /* ZZPlaceHolderLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPlaceHolderLabel.m; sourceTree = "<group>"; };
+		1858CE5F22647F3500CB1C31 /* qqLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qqLogin@2x.png"; sourceTree = "<group>"; };
+		1858CE6022647F3500CB1C31 /* wbLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wbLogin@2x.png"; sourceTree = "<group>"; };
+		1858CE6122647F3500CB1C31 /* wbLogin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wbLogin@3x.png"; sourceTree = "<group>"; };
+		1858CE6222647F3500CB1C31 /* wxLogin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wxLogin@3x.png"; sourceTree = "<group>"; };
+		1858CE6322647F3600CB1C31 /* wxLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wxLogin@2x.png"; sourceTree = "<group>"; };
+		1858CE6422647F3600CB1C31 /* qqLogin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qqLogin@3x.png"; sourceTree = "<group>"; };
+		1858CE6B22648AA800CB1C31 /* LoginBackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginBackView.h; sourceTree = "<group>"; };
+		1858CE6C22648AA800CB1C31 /* LoginBackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginBackView.m; sourceTree = "<group>"; };
+		1858CE6E22648FE600CB1C31 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		1858CE6F22648FE600CB1C31 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		1858CE7122648FFD00CB1C31 /* LoginBackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginBackViewController.h; sourceTree = "<group>"; };
+		1858CE7222648FFD00CB1C31 /* LoginBackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginBackViewController.m; sourceTree = "<group>"; };
+		1858CE742264931900CB1C31 /* ZZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLabel.h; sourceTree = "<group>"; };
+		1858CE752264931900CB1C31 /* ZZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLabel.m; sourceTree = "<group>"; };
+		1858CE782265A9F300CB1C31 /* UIViewController+DropdownReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DropdownReturn.h"; sourceTree = "<group>"; };
+		1858CE792265A9F300CB1C31 /* UIViewController+DropdownReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DropdownReturn.m"; sourceTree = "<group>"; };
+		1858CE7B2265AA5E00CB1C31 /* PresentVCAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentVCAnimation.h; sourceTree = "<group>"; };
+		1858CE7C2265AA5E00CB1C31 /* PresentVCAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentVCAnimation.m; sourceTree = "<group>"; };
+		1858CE7E2265AAB800CB1C31 /* DismissVCAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissVCAnimation.h; sourceTree = "<group>"; };
+		1858CE7F2265AAB800CB1C31 /* DismissVCAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissVCAnimation.m; sourceTree = "<group>"; };
+		1858CE812265AAE700CB1C31 /* SwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		1858CE822265AAE700CB1C31 /* SwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		18E66DE522367F9E00B63410 /* UIBezierPath+TextPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TextPath.h"; sourceTree = "<group>"; };
+		18E66DE622367F9E00B63410 /* UIBezierPath+TextPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextPath.m"; sourceTree = "<group>"; };
+		18EAC7D9223B9D6600858086 /* UITextView+placeHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+placeHolder.h"; sourceTree = "<group>"; };
+		18EAC7DA223B9D6600858086 /* UITextView+placeHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+placeHolder.m"; sourceTree = "<group>"; };
 		B0D6AFC71ED24310EDEB1968 /* Pods-XZ_login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZ_login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZ_login/Pods-XZ_login.debug.xcconfig"; sourceTree = "<group>"; };
 		D8FA3F055358F84FA51E5713 /* Pods-XZ_login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZ_login.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZ_login/Pods-XZ_login.release.xcconfig"; sourceTree = "<group>"; };
 		EEBA7C973A21724E673DE2E1 /* Pods_XZ_login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZ_login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +198,8 @@
 			children = (
 				1802CF62222D205800D4EC25 /* Resources */,
 				1802CF52222D201000D4EC25 /* Classes */,
+				182D2A0D2268125700795CCC /* Utils */,
+				183B0A70223B54E600154FA1 /* Macro.h */,
 				1802CF20222D1B4D00D4EC25 /* AppDelegate.h */,
 				1802CF21222D1B4D00D4EC25 /* AppDelegate.m */,
 				1802CF23222D1B4D00D4EC25 /* ViewController.h */,
@@ -159,12 +234,10 @@
 		1802CF52222D201000D4EC25 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1802CF54222D203C00D4EC25 /* LoginViewController.h */,
-				1802CF5B222D203C00D4EC25 /* LoginViewController.m */,
-				1802CF53222D203C00D4EC25 /* LoginYuanhuImageView.h */,
-				1802CF57222D203C00D4EC25 /* LoginYuanhuImageView.m */,
-				1802CF59222D203C00D4EC25 /* LoginYuanhuView.h */,
-				1802CF58222D203C00D4EC25 /* LoginYuanhuView.m */,
+				183B0A68223A563200154FA1 /* V */,
+				183B0A67223A562E00154FA1 /* M */,
+				183B0A66223A562600154FA1 /* C */,
+				183B0A6F223B3FEB00154FA1 /* LoginHeader.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -172,11 +245,114 @@
 		1802CF62222D205800D4EC25 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				182D2A022265CB8300795CCC /* registerback1.png */,
+				1858CE5F22647F3500CB1C31 /* qqLogin@2x.png */,
+				1858CE6422647F3600CB1C31 /* qqLogin@3x.png */,
+				1858CE6022647F3500CB1C31 /* wbLogin@2x.png */,
+				1858CE6122647F3500CB1C31 /* wbLogin@3x.png */,
+				1858CE6322647F3600CB1C31 /* wxLogin@2x.png */,
+				1858CE6222647F3500CB1C31 /* wxLogin@3x.png */,
 				1802CF5A222D203C00D4EC25 /* loginback.png */,
 				1802CF56222D203C00D4EC25 /* loginback1.png */,
 				1802CF55222D203C00D4EC25 /* loginback2.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		181990922269C1BE0073F93E /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				182D2A072265E59B00795CCC /* StepProgressView.h */,
+				182D2A082265E59B00795CCC /* StepProgressView.m */,
+				182D2A292269A2FA00795CCC /* GGProgressView.h */,
+				182D2A282269A2FA00795CCC /* GGProgressView.m */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		182D2A012265CA7C00795CCC /* DropdownReturn */ = {
+			isa = PBXGroup;
+			children = (
+				1858CE782265A9F300CB1C31 /* UIViewController+DropdownReturn.h */,
+				1858CE792265A9F300CB1C31 /* UIViewController+DropdownReturn.m */,
+				1858CE7B2265AA5E00CB1C31 /* PresentVCAnimation.h */,
+				1858CE7C2265AA5E00CB1C31 /* PresentVCAnimation.m */,
+				1858CE7E2265AAB800CB1C31 /* DismissVCAnimation.h */,
+				1858CE7F2265AAB800CB1C31 /* DismissVCAnimation.m */,
+				1858CE812265AAE700CB1C31 /* SwipeUpInteractiveTransition.h */,
+				1858CE822265AAE700CB1C31 /* SwipeUpInteractiveTransition.m */,
+			);
+			path = DropdownReturn;
+			sourceTree = "<group>";
+		};
+		182D2A0D2268125700795CCC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				182D2A2722699E4500795CCC /* PlaceholderLabel */,
+				182D2A012265CA7C00795CCC /* DropdownReturn */,
+				18E66DE522367F9E00B63410 /* UIBezierPath+TextPath.h */,
+				18E66DE622367F9E00B63410 /* UIBezierPath+TextPath.m */,
+				182D2A0A22680EB700795CCC /* UIViewController+KeyboardCorver.h */,
+				182D2A0B22680EB700795CCC /* UIViewController+KeyboardCorver.m */,
+				182D2A1E22686EB800795CCC /* UINavigationController+ShouldPopExtention.h */,
+				182D2A1F22686EB800795CCC /* UINavigationController+ShouldPopExtention.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		182D2A2722699E4500795CCC /* PlaceholderLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1858CE5C2264692B00CB1C31 /* ZZPlaceHolderLabel.h */,
+				1858CE5D2264692B00CB1C31 /* ZZPlaceHolderLabel.m */,
+				18EAC7D9223B9D6600858086 /* UITextView+placeHolder.h */,
+				18EAC7DA223B9D6600858086 /* UITextView+placeHolder.m */,
+			);
+			path = PlaceholderLabel;
+			sourceTree = "<group>";
+		};
+		183B0A66223A562600154FA1 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				1858CE7122648FFD00CB1C31 /* LoginBackViewController.h */,
+				1858CE7222648FFD00CB1C31 /* LoginBackViewController.m */,
+				1802CF54222D203C00D4EC25 /* LoginViewController.h */,
+				1802CF5B222D203C00D4EC25 /* LoginViewController.m */,
+				1858CE6E22648FE600CB1C31 /* RegisterViewController.h */,
+				1858CE6F22648FE600CB1C31 /* RegisterViewController.m */,
+				182D2A2122696BD900795CCC /* VerifyCodeViewController.h */,
+				182D2A2222696BD900795CCC /* VerifyCodeViewController.m */,
+				182D2A24226981B800795CCC /* ForgetVerifyCodeViewController.h */,
+				182D2A25226981B800795CCC /* ForgetVerifyCodeViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		183B0A67223A562E00154FA1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		183B0A68223A563200154FA1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				1858CE742264931900CB1C31 /* ZZLabel.h */,
+				1858CE752264931900CB1C31 /* ZZLabel.m */,
+				1858CE6B22648AA800CB1C31 /* LoginBackView.h */,
+				1858CE6C22648AA800CB1C31 /* LoginBackView.m */,
+				1802CF53222D203C00D4EC25 /* LoginYuanhuImageView.h */,
+				1802CF57222D203C00D4EC25 /* LoginYuanhuImageView.m */,
+				1802CF59222D203C00D4EC25 /* LoginYuanhuView.h */,
+				1802CF58222D203C00D4EC25 /* LoginYuanhuView.m */,
+				183B0A6C223B3F8E00154FA1 /* CircleButton.h */,
+				183B0A6D223B3F8E00154FA1 /* CircleButton.m */,
+				182D2A042265D12A00795CCC /* ZZButton.h */,
+				182D2A052265D12A00795CCC /* ZZButton.m */,
+				181990922269C1BE0073F93E /* ProgressView */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 		9762FED68A8C4AB8204A74DC /* Pods */ = {
@@ -303,10 +479,17 @@
 			files = (
 				1802CF60222D203D00D4EC25 /* loginback.png in Resources */,
 				1802CF2D222D1B4E00D4EC25 /* LaunchScreen.storyboard in Resources */,
+				1858CE6822647F3600CB1C31 /* wxLogin@3x.png in Resources */,
 				1802CF5C222D203D00D4EC25 /* loginback2.png in Resources */,
+				1858CE6722647F3600CB1C31 /* wbLogin@3x.png in Resources */,
 				1802CF2A222D1B4E00D4EC25 /* Assets.xcassets in Resources */,
 				1802CF5D222D203D00D4EC25 /* loginback1.png in Resources */,
+				182D2A032265CB8300795CCC /* registerback1.png in Resources */,
+				1858CE6622647F3600CB1C31 /* wbLogin@2x.png in Resources */,
+				1858CE6522647F3600CB1C31 /* qqLogin@2x.png in Resources */,
 				1802CF28222D1B4D00D4EC25 /* Main.storyboard in Resources */,
+				1858CE6922647F3600CB1C31 /* wxLogin@2x.png in Resources */,
+				1858CE6A22647F3600CB1C31 /* qqLogin@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,12 +557,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1858CE5E2264692B00CB1C31 /* ZZPlaceHolderLabel.m in Sources */,
 				1802CF25222D1B4D00D4EC25 /* ViewController.m in Sources */,
+				18EAC7DB223B9D6600858086 /* UITextView+placeHolder.m in Sources */,
+				182D2A062265D12A00795CCC /* ZZButton.m in Sources */,
 				1802CF5F222D203D00D4EC25 /* LoginYuanhuView.m in Sources */,
 				1802CF61222D203D00D4EC25 /* LoginViewController.m in Sources */,
+				182D2A0C22680EB800795CCC /* UIViewController+KeyboardCorver.m in Sources */,
 				1802CF30222D1B4E00D4EC25 /* main.m in Sources */,
+				1858CE802265AAB800CB1C31 /* DismissVCAnimation.m in Sources */,
+				182D2A2022686EB800795CCC /* UINavigationController+ShouldPopExtention.m in Sources */,
+				182D2A26226981B800795CCC /* ForgetVerifyCodeViewController.m in Sources */,
+				182D2A2322696BD900795CCC /* VerifyCodeViewController.m in Sources */,
+				183B0A6E223B3F8E00154FA1 /* CircleButton.m in Sources */,
+				182D2A2A2269A2FA00795CCC /* GGProgressView.m in Sources */,
+				182D2A092265E59B00795CCC /* StepProgressView.m in Sources */,
+				1858CE7322648FFD00CB1C31 /* LoginBackViewController.m in Sources */,
+				1858CE7A2265A9F300CB1C31 /* UIViewController+DropdownReturn.m in Sources */,
+				1858CE7D2265AA5E00CB1C31 /* PresentVCAnimation.m in Sources */,
+				1858CE832265AAE700CB1C31 /* SwipeUpInteractiveTransition.m in Sources */,
+				1858CE7022648FE600CB1C31 /* RegisterViewController.m in Sources */,
+				1858CE6D22648AA800CB1C31 /* LoginBackView.m in Sources */,
+				1858CE762264931900CB1C31 /* ZZLabel.m in Sources */,
 				1802CF5E222D203D00D4EC25 /* LoginYuanhuImageView.m in Sources */,
 				1802CF22222D1B4D00D4EC25 /* AppDelegate.m in Sources */,
+				18E66DE722367F9E00B63410 /* UIBezierPath+TextPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

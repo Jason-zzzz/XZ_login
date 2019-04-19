@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -73,23 +73,23 @@
 		2F28CA5A0C53A0D2144A1BF0EF9658C3 /* UIImage+PrivateBundleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PrivateBundleImage.h"; path = "ZZTools/Classes/UIImage+PrivateBundleImage.h"; sourceTree = "<group>"; };
 		3080C4323F0CDE6B16B717DF774F3CFA /* ZZTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZTools.h; path = ZZTools/Classes/ZZTools.h; sourceTree = "<group>"; };
 		370A1A4A3ED63A9F25FAF934C788013D /* NSBundle+privateBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+privateBundle.h"; path = "ZZTools/Classes/NSBundle+privateBundle.h"; sourceTree = "<group>"; };
-		3BD01D9F3F0F7FBC537026DB6ED0ED93 /* ZZTools.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZTools.mm; path = ZZTools/Classes/ZZTools.mm; sourceTree = "<group>"; };
+		3BD01D9F3F0F7FBC537026DB6ED0ED93 /* ZZTools.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZTools.mm; path = ZZTools/Classes/ZZTools.mm; sourceTree = "<group>"; };
 		4502C4ADA2F9E9BF90867F6C49EF3AD1 /* Pods-XZ_login-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XZ_login-acknowledgements.plist"; sourceTree = "<group>"; };
 		5282A8C581FFEBACA79E862135459A28 /* ZZNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNavigationViewController.h; path = ZZTools/Classes/zzNavigationView/ZZNavigationViewController.h; sourceTree = "<group>"; };
 		579C9892087365E5603358C5C4EDC681 /* JZZTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JZZTools.modulemap; sourceTree = "<group>"; };
-		6024F10EED7C4FB0CD6B547CCC60B10B /* Pods_XZ_login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XZ_login.framework; path = "Pods-XZ_login.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6024F10EED7C4FB0CD6B547CCC60B10B /* Pods_XZ_login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZ_login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6855BF27CD448161A7F0F9C9434551FF /* ZZNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNavigationBar.h; path = ZZTools/Classes/zzNavigationView/ZZNavigationBar.h; sourceTree = "<group>"; };
 		693D5537B9CDAC735908CA8034C86AD2 /* Pods-XZ_login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XZ_login-umbrella.h"; sourceTree = "<group>"; };
 		6A9330A7BF030544D889B0A854764498 /* Pods-XZ_login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZ_login.debug.xcconfig"; sourceTree = "<group>"; };
 		6E292AB29453C2F7C1E7A547E022F6B7 /* UIViewController+PrivateNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PrivateNavigationBar.m"; path = "ZZTools/Classes/zzNavigationView/UIViewController+PrivateNavigationBar.m"; sourceTree = "<group>"; };
-		72DAC05893E265D39C0EE12EC33A632E /* JZZTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JZZTools.framework; path = JZZTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DAC05893E265D39C0EE12EC33A632E /* JZZTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JZZTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B7EAF4D9C172543D1060931A456736 /* JZZTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZZTools-prefix.pch"; sourceTree = "<group>"; };
 		77EF7E775441FC4ED899A0D4FDA5D3A8 /* UIImage+Corner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Corner.h"; path = "ZZTools/Classes/UIImage+Corner.h"; sourceTree = "<group>"; };
 		7A95C91A4495454960D9EB449153C0D7 /* ZZNavigationBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZZNavigationBar.xib; path = ZZTools/Resources/ZZNavigationBar.xib; sourceTree = "<group>"; };
 		83DEC017A16D6A8C8A3D054BF8880DC3 /* ZZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZObject.h; path = ZZTools/Classes/ZZObject.h; sourceTree = "<group>"; };
-		8EB2A428633F5C57F36C5E3709930731 /* TimeTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = TimeTool.mm; path = ZZTools/Classes/TimeTool.mm; sourceTree = "<group>"; };
+		8EB2A428633F5C57F36C5E3709930731 /* TimeTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = TimeTool.mm; path = ZZTools/Classes/TimeTool.mm; sourceTree = "<group>"; };
 		901D12DB25DDA36EF076572B28C32E96 /* back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@3x.png"; path = "ZZTools/Resources/back@3x.png"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95CEE44AC5EC56C3BA51B9B1151FEF2D /* NSBundle+privateBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+privateBundle.m"; path = "ZZTools/Classes/NSBundle+privateBundle.m"; sourceTree = "<group>"; };
 		96C759A57BEA0006548878E693A85637 /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "ZZTools/Resources/back@2x.png"; sourceTree = "<group>"; };
 		98280F8B3149A30FC00F6567B4D7BF18 /* Pods-XZ_login-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XZ_login-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -109,12 +109,12 @@
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D776C4D7758BE70F916395FD7B32FC17 /* Pods-XZ_login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XZ_login-dummy.m"; sourceTree = "<group>"; };
 		D82A3EAE349DF1C5A6AF3379688C2D36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DABB2A54FB880F5AA0E11860E0949057 /* ZZObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZObject.mm; path = ZZTools/Classes/ZZObject.mm; sourceTree = "<group>"; };
+		DABB2A54FB880F5AA0E11860E0949057 /* ZZObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZObject.mm; path = ZZTools/Classes/ZZObject.mm; sourceTree = "<group>"; };
 		DB10C2485A5567A053EF8A1B8BD231B3 /* TimeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimeTool.h; path = ZZTools/Classes/TimeTool.h; sourceTree = "<group>"; };
 		DE28A057A313FA0F17F2D60037CE913B /* ZZNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZNavigationBar.m; path = ZZTools/Classes/zzNavigationView/ZZNavigationBar.m; sourceTree = "<group>"; };
 		EBA9D6097F63D9EB2C54BEFC0EEDF60A /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LayoutMethods.m"; path = "ZZTools/Classes/HandyFrame/UIView+LayoutMethods.m"; sourceTree = "<group>"; };
 		EF38FD3FE9EC21C586D8E72D7E951D72 /* Pods-XZ_login-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XZ_login-frameworks.sh"; sourceTree = "<group>"; };
-		F23DD5626488DE753CEDC74EF8D39681 /* ZZNavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZZNavigationBar.bundle; path = "JZZTools-ZZNavigationBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23DD5626488DE753CEDC74EF8D39681 /* ZZNavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZNavigationBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,7 +235,6 @@
 				D6B36C5BE029F85CD23D86C35F3E279D /* Resources */,
 				6C465750B300DD38715DAB95463633D6 /* Support Files */,
 			);
-			name = JZZTools;
 			path = JZZTools;
 			sourceTree = "<group>";
 		};
@@ -495,11 +494,7 @@
 				INFOPLIST_FILE = "Target Support Files/JZZTools/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JZZTools/JZZTools.modulemap";
 				PRODUCT_MODULE_NAME = JZZTools;
 				PRODUCT_NAME = JZZTools;
@@ -634,8 +629,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -691,11 +685,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-XZ_login/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XZ_login/Pods-XZ_login.modulemap";
 				OTHER_LDFLAGS = "";
@@ -729,11 +719,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-XZ_login/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XZ_login/Pods-XZ_login.modulemap";
 				OTHER_LDFLAGS = "";
@@ -767,11 +753,7 @@
 				INFOPLIST_FILE = "Target Support Files/JZZTools/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JZZTools/JZZTools.modulemap";
 				PRODUCT_MODULE_NAME = JZZTools;
 				PRODUCT_NAME = JZZTools;

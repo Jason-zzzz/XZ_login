@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LoginViewController.h"
+#import "ZZNavigationViewController.h"
 #import "ZZTools.h"
 
 @interface ViewController ()
@@ -22,15 +23,12 @@
 }
 
 - (IBAction)bb:(id)sender {
+    
     LoginViewController * lvc = [[LoginViewController alloc] init];
-    [self presentViewController:lvc animated:YES completion:^{
+    ZZNavigationViewController * znvc = [[ZZNavigationViewController alloc] initWithRootViewController:lvc];
+    [self presentViewController:znvc animated:YES completion:^{
         
     }];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
