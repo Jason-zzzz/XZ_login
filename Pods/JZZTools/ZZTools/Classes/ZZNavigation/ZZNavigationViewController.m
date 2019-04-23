@@ -8,7 +8,7 @@
 
 #import "ZZNavigationViewController.h"
 
-@interface ZZNavigationViewController () <UINavigationBarDelegate>
+@interface ZZNavigationViewController () <UIGestureRecognizerDelegate>
 
 @end
 
@@ -26,21 +26,15 @@
 }
 
 
-#pragma mark - UIGestureRecognizerDelegate
-- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer*)gestureRecognizer{
-    //判断是否为rootViewController
-    if (self.navigationController && self.navigationController.viewControllers.count == 1) {
-        return NO;
-    }
-    [self popViewControllerAnimated:YES];
-    return NO;
-}
+//#pragma mark - UIGestureRecognizerDelegate
+//- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer*)gestureRecognizer{
+//    //判断是否为rootViewController
+//    if (self.navigationController && self.navigationController.viewControllers.count == 1) {
+//        return NO;
+//    }
+//    [self popViewControllerAnimated:YES];
+//    return NO;
+//}
 
-- (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item {
-    
-    [[UIApplication sharedApplication].keyWindow endEditing:YES];
-
-    return NO;
-}
 
 @end

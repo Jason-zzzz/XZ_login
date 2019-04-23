@@ -69,14 +69,6 @@
     [self addNotification]; // 键盘遮挡检测
 }
 
-- (void)getVerifyCode {
-}
-
-- (void)assureRegister {
-//    VerifyCodeViewController * vcvc = [[VerifyCodeViewController alloc] init];
-//    [self.navigationController pushViewController:vcvc animated:YES];
-}
-
 #pragma mark 所有frame都需要在这里设置
 - (void)viewWillLayoutSubviews {
     
@@ -142,6 +134,15 @@
 }
 
 #pragma mark action
+
+- (void)assureRegister {
+    [self.stepView setStepIndex:1 animation:YES];
+    [self getVerifyCode];
+}
+
+- (void)getVerifyCode {
+    
+} 
 
 #pragma mark lazyload
 - (UIView *)registerTextfieldBackView

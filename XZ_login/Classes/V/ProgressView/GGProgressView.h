@@ -15,6 +15,12 @@ typedef NS_ENUM(NSInteger, GGProgressViewStyle) {
 
 @interface GGProgressView : UIView
 
+/*
+ 初始化方法m，其他的该怎么用怎么用
+ _progressView = [[GGProgressView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, 10)];
+ _progressView.backgroundColor = ZZ_COMMON_LIGHT_GRAY;
+ _progressView.progressTintColor = TINT_COLOR;
+ */
 @property(nonatomic) float progress;                        // 0.0 .. 1.0, 默认0 超出为1.
 @property(nonatomic) GGProgressViewStyle progressViewStyle;
 @property(nonatomic,assign) BOOL isTile;  //背景图片是平铺填充 默认NO拉伸填充 设置为YES时图片复制平铺填充

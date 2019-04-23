@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZZNavigationBar.h" 
+#import "ZZNavigationBar.h"
 
 @interface ZZNavigationViewController : UINavigationController
 

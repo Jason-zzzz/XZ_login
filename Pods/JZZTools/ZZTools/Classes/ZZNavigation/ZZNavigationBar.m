@@ -51,12 +51,12 @@
 }
 
 - (IBAction)back:(id)sender {
-    
     if ([self getCurrentVC].presentingViewController && [self getCurrentVC].navigationController.viewControllers.count == 1) {
         [[self getCurrentVC] dismissViewControllerAnimated:YES completion:nil];
     } else {
         [[self getCurrentVC].navigationController popViewControllerAnimated:YES];
-    } 
+    }
+
 }
 
 - (void)setZzBackgroundColor:(UIColor *)zzBackgroundColor {
