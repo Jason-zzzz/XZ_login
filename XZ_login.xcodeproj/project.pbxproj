@@ -171,7 +171,6 @@
 			children = (
 				1802CF62222D205800D4EC25 /* Resources */,
 				1802CF52222D201000D4EC25 /* Classes */,
-				183B0A70223B54E600154FA1 /* Macro.h */,
 				1802CF20222D1B4D00D4EC25 /* AppDelegate.h */,
 				1802CF21222D1B4D00D4EC25 /* AppDelegate.m */,
 				1802CF23222D1B4D00D4EC25 /* ViewController.h */,
@@ -210,6 +209,7 @@
 				183B0A67223A562E00154FA1 /* M */,
 				183B0A66223A562600154FA1 /* C */,
 				183B0A6F223B3FEB00154FA1 /* LoginHeader.h */,
+				183B0A70223B54E600154FA1 /* Macro.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

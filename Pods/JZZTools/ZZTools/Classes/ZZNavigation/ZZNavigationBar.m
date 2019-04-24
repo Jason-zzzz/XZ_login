@@ -56,7 +56,6 @@
     } else {
         [[self getCurrentVC].navigationController popViewControllerAnimated:YES];
     }
-
 }
 
 - (void)setZzBackgroundColor:(UIColor *)zzBackgroundColor {
